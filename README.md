@@ -1,31 +1,26 @@
-# Gatsby Theme Carbon Starter
+# IBM Client Engineering Solutions Hub Template
 
 ## What is this?
 
-> Gatsby [themes](https://www.gatsbyjs.org/docs/themes/) encapsulate all of the
-> configuration and implementation details of Gatsby websites. This is a
-> starter-kit (boilerplate) with a dependancy on the `gatsby-theme-carbon`
-> package. The primary goal of `gatsby-theme-carbon` is to get content authors
-> speaking the IBM Design Language with Carbon as soon as possible. It includes
-> some sample components/content demos in the `src/pages` directory.
+This is a template used to quickly and effectively document assets and solutions created by Client Engineers at IBM. The template outlines the bare minimum requirements that must be documented when publishing your work. This template was created using the `gatsby-theme-carbon` package, [click here](https://gatsby-theme-carbon.vercel.app/) to learn more.
 
 ## How do I use it?
 
-Check out our quick
-[getting started](https://gatsby-theme-carbon.now.sh/getting-started) guide and
-video!
+1. Use this template to create a new repository in the ibm-client-engineering Open Solutions Library.
 
-`gatsby-theme-carbon` at it’s core relies on [mdx](https://mdxjs.com/) for page
-creation. Check out the `src/pages` directory for some examples for using mdx.
+    Make sure you follow the naming convention: solution-[insert solution name].
 
-A key feature of Gatsby themes is component shadowing. By simply placing a
-component into the `src/gatsby-theme-carbon/components` location, you can
-override components used by the theme. You can read more about component
-shadowing
-[here](https://www.gatsbyjs.org/docs/themes/api-reference#component-shadowing).
+2. Clone your new repository to your local machine.
 
-You’re also free to make your own components and use them in your MDX pages.
+3. Start developing by running the site locally.
 
-## What’s Next?
+    Navigate into your directory with `cd solution-[insert solution name]`.
+    Run the site locally with `npm run dev`.
 
-[Check out the docs!](https://gatsby-theme-carbon.now.sh)
+    For more useful scripts, [click here](https://gatsby-theme-carbon.vercel.app/guides/npm-scripts).
+
+4. Make changes and begin documenting your solution.
+
+    Start by adding your solution name in you `gatsby-config.js` file at the root of your project. Replace all instances of [insert solution name] with your solution's name and it will update across the site.
+
+    You can now go to the pages folder and fill out the .mdx files with the required documentaiton for your solution. [Click here](https://gatsby-theme-carbon.vercel.app/components/Accordion) to see the various components you can use in the .mdx files.

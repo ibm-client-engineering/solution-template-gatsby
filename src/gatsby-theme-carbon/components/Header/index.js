@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from 'gatsby-theme-carbon/src/components/Header';
+import { siteMetadata } from '../../../../gatsby-config';
 
 const CustomHeader = (props) => (
   <Header {...props}>
-    Gatsby theme&nbsp;<span>Carbon</span>
+    IBM Client Engineering |&nbsp;<span>{siteMetadata.title}</span>
   </Header>
 );
 

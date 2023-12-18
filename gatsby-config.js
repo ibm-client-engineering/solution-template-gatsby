@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
-    keywords: 'gatsby,theme,carbon',
+    title: '[Insert Solution Name]',
+    description: 'IBM Client Engineering | [Insert Solution Name]',
+    keywords: 'IBM, Client Engineering, [Insert Solution Name]',
   },
   pathPrefix: `/gtc`,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Carbon Design Gatsby Theme',
+        name: 'IBM Client Engineering | [Insert Solution Name]',
         icon: 'src/images/favicon.svg',
-        short_name: 'Gatsby Theme Carbon',
+        short_name: '[Insert Solution Name]',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#161616',
@@ -21,11 +21,15 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        mediumAccount: 'carbondesign',
+        theme: {
+          homepage: 'g10',
+          interior: 'g10',
+        },
+        isSwitcherEnabled: false,
+        titleType: 'prepend',
         repository: {
           baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
-          subDirectory: '/packages/example',
+            'https://github.com/ibm-client-engineering/solution-template-gatsby',
         },
       },
     },
