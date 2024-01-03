@@ -14,8 +14,10 @@ This is a template used to quickly and effectively document assets and solutions
 
 3. Start developing by running the site locally.
 
-    Navigate into your directory with `cd solution-[insert solution name]`.
-    Run the site locally with `npm run dev`.
+    Navigate into your directory with `cd solution-<solution name>`.
+    Install the Gatsby CLI with `brew install gatsby-cli` or `npm install -g gatsby-cli`
+    Run `yarn install` to get everything set up.
+    Run the site locally with `yarn dev`.
 
     For more useful scripts, [click here](https://gatsby-theme-carbon.vercel.app/guides/npm-scripts).
 
