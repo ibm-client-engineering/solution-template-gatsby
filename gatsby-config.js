@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/solution-template-gatsby"
+  pathPrefix: "/solution-template-gatsby",
   siteMetadata: {
     title: '[Insert Solution Name]',
     description: 'IBM Client Engineering | [Insert Solution Name]',
