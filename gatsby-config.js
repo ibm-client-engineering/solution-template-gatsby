@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/solution-template-gatsby"
   siteMetadata: {
     title: '[Insert Solution Name]',
     description: 'IBM Client Engineering | [Insert Solution Name]',
@@ -27,8 +28,7 @@ module.exports = {
         isSwitcherEnabled: false,
         titleType: 'prepend',
         repository: {
-          baseUrl:
-            'https://github.com/ibm-client-engineering/solution-template-gatsby',
+          baseUrl: 'https://github.com/ibm-client-engineering/[Insert Solution Name]',
         },
       },
     },
