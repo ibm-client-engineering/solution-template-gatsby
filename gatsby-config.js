@@ -4,7 +4,6 @@ module.exports = {
     description: 'IBM Client Engineering | [Insert Solution Name]',
     keywords: 'IBM, Client Engineering, [Insert Solution Name]',
   },
-  pathPrefix: `/gtc`,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
@@ -31,6 +30,33 @@ module.exports = {
           baseUrl:
             'https://github.com/ibm-client-engineering/solution-template-gatsby',
         },
+      },
+    },
+    { 
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: [
+          "G-GB0XWXF3GE",
+        ],
+        gtagConfig: {
+          anonymize_ip: true
+        },
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-mermaid`,
+            options: /** @type {import('gatsby-remark-mermaid').Options} */ ({
+              mermaidConfig: {
+                theme: 'neutral',
+                themeCSS: '.node rect { fill: #fff; }'
+              }
+            })
+          }
+        ],
       },
     },
   ],
