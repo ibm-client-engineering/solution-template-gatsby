@@ -8,11 +8,21 @@ This is a template used to quickly and effectively document assets and solutions
 
 1. Use this template to create a new repository in the ibm-client-engineering Open Solutions Library.
 
-    Make sure you follow the naming convention: solution-[insert solution name].
+    Make sure you follow the naming convention: solution-[insert-solution-name].
 
 2. Clone your new repository to your local machine.
 
-3. Start developing by running the site locally.
+3. Make initial changes to `gatsby-config.js`.
+
+   Open the `gatsby-config.js` file in a code editor and update the following according to the naming convention:
+
+       - pathPrefix
+       - start_url
+       - base-url
+
+   Update the `siteMetadata` fields and the `name` fields with the name of your solution which will be populated across the website.
+
+5. Start developing by running the site locally.
 
     Navigate into your directory with `cd solution-<solution name>`.
 
@@ -24,8 +34,6 @@ This is a template used to quickly and effectively document assets and solutions
 
     For more useful scripts, [click here](https://gatsby-theme-carbon.vercel.app/guides/npm-scripts).
 
-4. Make changes and begin documenting your solution.
-
-    Start by adding your solution name in you `gatsby-config.js` file at the root of your project. Replace all instances of [insert solution name] with your solution's name and it will update across the site.
+6. Make changes and begin documenting your solution.
 
     You can now go to the pages folder and fill out the .mdx files with the required documentaiton for your solution. [Click here](https://gatsby-theme-carbon.vercel.app/components/Accordion) to see the various components you can use in the .mdx files.
