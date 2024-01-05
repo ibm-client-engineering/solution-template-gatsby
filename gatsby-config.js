@@ -12,7 +12,7 @@ module.exports = {
         name: 'IBM Client Engineering | [Insert Solution Name]',
         icon: 'src/images/favicon.svg',
         short_name: '[Insert Solution Name]',
-        start_url: '/',
+        start_url: '/solution-template-gatsby',
         background_color: '#ffffff',
         theme_color: '#161616',
         display: 'browser',
@@ -28,7 +28,7 @@ module.exports = {
         isSwitcherEnabled: false,
         titleType: 'prepend',
         repository: {
-          baseUrl: 'https://github.com/ibm-client-engineering/[Insert Solution Name]',
+          baseUrl: 'https://github.com/ibm-client-engineering/solution-template-gatsby',
         },
       },
     },
