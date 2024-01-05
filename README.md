@@ -8,24 +8,44 @@ This is a template used to quickly and effectively document assets and solutions
 
 1. Use this template to create a new repository in the ibm-client-engineering Open Solutions Library.
 
-    Make sure you follow the naming convention: solution-[insert solution name].
+   Make sure you follow the naming convention: solution-[insert-solution-name].
 
 2. Clone your new repository to your local machine.
 
-3. Start developing by running the site locally.
+3. Make initial changes to `gatsby-config.js`.
 
-    Navigate into your directory with `cd solution-<solution name>`.
+   Open the `gatsby-config.js` file in a code editor and update the following according to the naming convention:
+   
+   - `pathPrefix`
+   - `start_url`
+   - `base-url`
 
-    Install the Gatsby CLI with `brew install gatsby-cli` or `npm install -g gatsby-cli`
+   Update the `siteMetadata` fields and the `name` fields with the name of your solution which will be populated across the website.
 
-    Run `yarn install` to get everything set up.
+5. Start developing by running the site locally.
+
+   Navigate into your directory with `cd solution-<solution name>`.
+
+   Install the Gatsby CLI with `brew install gatsby-cli` or `npm install -g gatsby-cli`
+
+   Run `yarn install` to get everything set up.
     
-    Run the site locally with `yarn dev`.
+   Run the site locally with `yarn dev:clean`.
 
-    For more useful scripts, [click here](https://gatsby-theme-carbon.vercel.app/guides/npm-scripts).
+   For more useful scripts, [click here](https://gatsby-theme-carbon.vercel.app/guides/npm-scripts).
 
-4. Make changes and begin documenting your solution.
+6. Make changes and begin documenting your solution.
 
-    Start by adding your solution name in you `gatsby-config.js` file at the root of your project. Replace all instances of [insert solution name] with your solution's name and it will update across the site.
+   The `pages` folder under `src` has all of the .mdx files for the pages you see on the site. Start by filling out those pages with the necessary documentation.
 
-    You can now go to the pages folder and fill out the .mdx files with the required documentaiton for your solution. [Click here](https://gatsby-theme-carbon.vercel.app/components/Accordion) to see the various components you can use in the .mdx files.
+   Make sure you update the `description` and `date` fields on the .mdx files as you document. This is important for the search capability on the site.
+
+   [Click here](https://gatsby-theme-carbon.vercel.app/components/Accordion) to see the various components you can use in the .mdx files.
+
+7. OPTIONAL: Adding/Removing/Changing any pages in the template.
+
+   The `nav-items.yaml` file under the `data` folder lists the order of the pages that are shown in the left navigation.
+
+   If you add, remove, or change the name of a file, you must update the `nav-items.yaml` file accordingly.
+
+   [Click here](https://gatsby-theme-carbon.vercel.app/guides/navigation/sidebar) to learn more about navigation or adding tabs to a page.

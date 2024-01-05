@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/solution-template-gatsby",
+  pathPrefix: "/solution-[Insert-Solution-Name]",
   siteMetadata: {
     title: '[Insert Solution Name]',
     description: 'IBM Client Engineering | [Insert Solution Name]',
@@ -12,7 +12,7 @@ module.exports = {
         name: 'IBM Client Engineering | [Insert Solution Name]',
         icon: 'src/images/favicon.svg',
         short_name: '[Insert Solution Name]',
-        start_url: '/solution-template-gatsby',
+        start_url: '/solution-[Insert-Solution-Name]',
         background_color: '#ffffff',
         theme_color: '#161616',
         display: 'browser',
@@ -28,7 +28,7 @@ module.exports = {
         isSwitcherEnabled: false,
         titleType: 'prepend',
         repository: {
-          baseUrl: 'https://github.com/ibm-client-engineering/solution-template-gatsby',
+          baseUrl: 'https://github.com/ibm-client-engineering/solution-[Insert-Solution-Name]',
         },
       },
     },
