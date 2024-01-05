@@ -15,10 +15,10 @@ This is a template used to quickly and effectively document assets and solutions
 3. Make initial changes to `gatsby-config.js`.
 
    Open the `gatsby-config.js` file in a code editor and update the following according to the naming convention:
-
-       - pathPrefix
-       - start_url
-       - base-url
+   
+       pathPrefix
+       start_url
+       base-url
 
    Update the `siteMetadata` fields and the `name` fields with the name of your solution which will be populated across the website.
 
@@ -30,7 +30,7 @@ This is a template used to quickly and effectively document assets and solutions
 
     Run `yarn install` to get everything set up.
     
-    Run the site locally with `yarn dev`.
+    Run the site locally with `yarn dev:clean`.
 
     For more useful scripts, [click here](https://gatsby-theme-carbon.vercel.app/guides/npm-scripts).
 
