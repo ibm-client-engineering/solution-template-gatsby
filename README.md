@@ -16,9 +16,9 @@ This is a template used to quickly and effectively document assets and solutions
 
    Open the `gatsby-config.js` file in a code editor and update the following according to the naming convention:
    
-       pathPrefix
-       start_url
-       base-url
+   - `pathPrefix`
+   - `start_url`
+   - `base-url`
 
    Update the `siteMetadata` fields and the `name` fields with the name of your solution which will be populated across the website.
 
@@ -36,8 +36,16 @@ This is a template used to quickly and effectively document assets and solutions
 
 6. Make changes and begin documenting your solution.
 
-   You can now go to the pages folder and fill out the .mdx files with the required documentation for your solution.
+   The `pages` folder under `src` has all of the .mdx files for the pages you see on the site. Start by filling out those pages with the necessary documentation.
 
    Make sure you update the `description` and `date` fields on the .mdx files as you document. This is important for the search capability on the site.
 
    [Click here](https://gatsby-theme-carbon.vercel.app/components/Accordion) to see the various components you can use in the .mdx files.
+
+7. OPTIONAL: Adding/Removing/Changing any pages in the template.
+
+   The `nav-items.yaml` file under the `data` folder lists the order of the pages that are shown in the left navigation.
+
+   If you add, remove, or change the name of a file, you must update the `nav-items.yaml` file accordingly.
+
+   [Click here](https://gatsby-theme-carbon.vercel.app/guides/navigation/sidebar) to learn more about navigation or adding tabs to a page.
