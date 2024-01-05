@@ -8,7 +8,7 @@ This is a template used to quickly and effectively document assets and solutions
 
 1. Use this template to create a new repository in the ibm-client-engineering Open Solutions Library.
 
-    Make sure you follow the naming convention: solution-[insert-solution-name].
+   Make sure you follow the naming convention: solution-[insert-solution-name].
 
 2. Clone your new repository to your local machine.
 
@@ -24,16 +24,20 @@ This is a template used to quickly and effectively document assets and solutions
 
 5. Start developing by running the site locally.
 
-    Navigate into your directory with `cd solution-<solution name>`.
+   Navigate into your directory with `cd solution-<solution name>`.
 
-    Install the Gatsby CLI with `brew install gatsby-cli` or `npm install -g gatsby-cli`
+   Install the Gatsby CLI with `brew install gatsby-cli` or `npm install -g gatsby-cli`
 
-    Run `yarn install` to get everything set up.
+   Run `yarn install` to get everything set up.
     
-    Run the site locally with `yarn dev:clean`.
+   Run the site locally with `yarn dev:clean`.
 
-    For more useful scripts, [click here](https://gatsby-theme-carbon.vercel.app/guides/npm-scripts).
+   For more useful scripts, [click here](https://gatsby-theme-carbon.vercel.app/guides/npm-scripts).
 
 6. Make changes and begin documenting your solution.
 
-    You can now go to the pages folder and fill out the .mdx files with the required documentaiton for your solution. [Click here](https://gatsby-theme-carbon.vercel.app/components/Accordion) to see the various components you can use in the .mdx files.
+   You can now go to the pages folder and fill out the .mdx files with the required documentation for your solution.
+
+   Make sure you update the `description` and `date` fields on the .mdx files as you document. This is important for the search capability on the site.
+
+   [Click here](https://gatsby-theme-carbon.vercel.app/components/Accordion) to see the various components you can use in the .mdx files.
